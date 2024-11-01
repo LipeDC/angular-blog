@@ -10,4 +10,6 @@ export class SmallCardComponent {
   photoSmallCard: string = ""
   @Input()
   smallCardTitle: string = ""
+  @Input()
+  Id: string = "0"
 }
